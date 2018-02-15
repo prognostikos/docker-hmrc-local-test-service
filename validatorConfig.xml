@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidatorConfig>
+  <!-- Relative paths for temp directory have the value of LTS_HOME variable prepended at runtime -->
+  <TempDirectory>temp</TempDirectory>
+  <RIMValidator>GSL</RIMValidator>
+  <LoggingLevel>OFF</LoggingLevel>
+  <ValidatorType>STATIC</ValidatorType>
+  <InternalSchema uri="http://www.hmrc.gov.uk/internal/servicemapping/1">resources/schemas/internal/servicemapping.xsd</InternalSchema>
+  <!-- Example Entry -->
+  <!--
+	<Service uri="http://www.govtalk.gov.uk/taxation/PAYE/MOV/07-08/1">
+		<TotalErrorCap>100</TotalErrorCap>
+		<ValidationType>COMPLETE</ValidationType>
+		<RIMArtefactsDirectory>PAYE/MOV/2007-2008/0.92</RIMArtefactsDirectory>
+	</Service>
+-->
+  <Envelope uri="http://www.govtalk.gov.uk/CM/envelope">
+    <Service uri="http://www.govtalk.gov.uk/taxation/RIMDemo/07-08/1">
+      <TotalErrorCap>100</TotalErrorCap>
+      <ValidationType>COMPLETE</ValidationType>
+      <RIMArtefactsDirectory>demoService/demoForm/demoYear/demoVersion</RIMArtefactsDirectory>
+    </Service>
+    <Service uri="http://www.govtalk.gov.uk/taxation/charities/r68/2">
+      <TotalErrorCap>100</TotalErrorCap>
+      <ValidationType>COMPLETE</ValidationType>
+      <RIMArtefactsDirectory>Charity/CHAR/2014-2015/2.0</RIMArtefactsDirectory>
+    </Service>
+  </Envelope>
+</ValidatorConfig>
+

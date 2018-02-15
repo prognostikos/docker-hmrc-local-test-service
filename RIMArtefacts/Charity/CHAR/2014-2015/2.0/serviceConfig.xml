@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceConfig>
+	<Service uri="http://www.govtalk.gov.uk/taxation/charities/r68/2">
+		<TotalErrorCap>100</TotalErrorCap>
+		<ValidationType>COMPLETE</ValidationType>
+	</Service>
+</ServiceConfig>
+
+
+
+
+
+
+
+
