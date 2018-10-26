@@ -1,6 +1,6 @@
 FROM openjdk:7-jdk
 
-ENV LTS_URL=https://www.tpvs.hmrc.gov.uk/tools/v2/LTS5.5.zip
+ENV LTS_URL=https://www.tpvs.hmrc.gov.uk/tools/v2/LTS5.6.zip
 
 ENV LTS_HOME=/HMRCTools/LTS
 ENV LTS_SCRIPT=/HMRCTools/LTS/RunLTSStandalone.sh
